@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <style>table,tr,td,th{border: 1px solid black;text-align: center;}
+          /* table{border-collapse: collapse;}*/</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+
+</head>
+<body>
+    <iframe src="https://en.wikipedia.org/wiki/Elon_Musk" width="500px" height="500px" frameborder="1"></iframe><br>
+    <h3 style="color:rgb(52, 5, 129) ;" align="center"><u>Tables</u></h3>
+    <table align="center" >
+        <thead>
+            <th>S.No</th>
+            <th>NAME</th>
+            <th>AGE</th>
+        </thead>
+        <tbody>
+         <tr><td>1</td><td>Bharath</td><td>20</td></tr>
+         <tr><td>2</td><td>Dhina</td><td>21</td></tr>
+         <tr><td>3</td><td>Kumar</td><td>22</td></tr>
+        </tbody>
+    </table><br>
+    <table align="center" cellpadding="5">
+        <tr><th>S.No</th><td>1</td><td>2</td></tr>
+        <tr><th>Name</th><td>Bharath</td><td>Dheena</td></tr>
+        <tr><th>Age</th><td>21</td><td>104</td></tr>
+    </table><br>
+    <table align="center" cellpadding="5" cellspacing="5">
+        <th colspan="4">Student Mark List</th>
+        <tr>
+            <td rowspan="2">Nmae</td>
+        <td colspan="3">Subject</td>
+        </tr>
+        <tr><td>E</td><td>T</td><td>M</td></tr>
+        <tr><td>Bharath</td><td>90</td><td>95</td><td>80
+        <tr><td>Dheena</td><td>80</td><td>90</td><td>79
+        </td>
+        </tr>   
+    </table>
+    <h2>Document</h2>
+   <fieldset>
+    <legend>REGISTRATION FORM</legend>
+    <form action="success.html" method="post">
+        <label for="fid">First Name <sup>*</sup></label><input name="fname" id="fid" type="text" placeholder="type here" required><br><br>
+        <label for="lid">Last Name</label><input id="lid" type="text"><br><br>
+        <label for="pass">Security Code</label><input id="pass" type="password" maxlength="8"><br><br>
+        <label for="day">DOB</label><input id="day" type="date"><br><br>
+        <label for="age">Age</label><input id="age" type="number"><br><br>
+        <label for="mail">email</label><input id="mail" type="email"><br><br>
+        <label for="num">Phone no</label><input id="num" type="text"><br><br>
+        <label for="res">Resume</label><input id="res" type="file"><br><br>
+        <label>Gender</label><input value="boys"  type="radio" name="gen"><label for="m">Male</label>
+                             <input value="girls"  type="radio" name="gen"><label for="f">Female</label>
+                             <input value="Transgender"  type="radio" name="gen"><label for="o">Other</label><br><br>
+        <label>Qualification</label><input type="checkbox"  ><label>12th</label>     
+                                    <input type="checkbox" ><label>UG</label>  
+                                    <input type="checkbox" ><label>PG</label><br><br>
+        <label>State</label><select><option>Tamil Nadu</option>
+                                    <option>Kerala</option>
+                                    <option>Andhra</option>
+                            </select> <br><br>
+        <label>Address</label><textarea cols="30" rows="10"></textarea><br><br>
+        <input type="reset"><br><br>
+        <input type="submit"><br><br>
+        <button>DO NOTHING</button>
+    </form>
+   </fieldset>
+</body>
+</html>

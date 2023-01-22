@@ -1,0 +1,66 @@
+.trans{
+    height: 300px;
+    width: 300px;
+   /* background:linear-gradient(red,yellow);*/
+   /*  background:linear-gradient(to right,red,yellow);*/
+    /*background:linear-gradient(to top right,red,yellow);*/
+
+   /* background:radial-gradient(black,red);*/
+    background:radial-gradient(circle,black,red,green,yellow,aqua);
+
+    /* width: 500px;*/
+   /* border: 2px solid black;*/
+  /*  background-color: red;*/
+   /* transform: scale(3);*/
+    /*transform: scale(3);*/ 
+    /* transform: scale(3);*/
+
+    /* transform: translatex(500px);*/
+    /*transform: translateY(500px);
+
+    /* transform: rotatex(150deg)*/
+    /* transform: rotatex(150deg);*/
+    /* transform: rotatey(120deg);*/            
+}
+.trans:hover{
+    transform: scale(3) translatex(500px) rotate3d(2,3,-1, 360deg);
+}
+.trans{
+    transition: transform;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+/*@keyframes bharath{
+    from{border: 1px solid green;background-color: black;transform: rotate(90deg);}
+    to{border: 3px dashed yellow; background-color: blue;transform: rotate(-130deg) scale(2);}
+}*/
+.trans1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+    animation-name: bharath;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+}
+@keyframes text{
+    0%{color: brown;font-size: 20px;font-family: 'Courier New', Courier, monospace;}
+    20%{color:aqua;font-size: 40px;font-family: 'Courier New', Courier, monospace;}
+    40%{color: blueviolet;font-size: 60px;font-family: 'Courier New', Courier, monospace;}
+    60%{color: red;font-size: 80px;font-family: 'Courier New', Courier, monospace;}
+    80%{color: black;font-size: 60px;font-family: 'Courier New', Courier, monospace;}
+    1000%{color: green;font-size: 40px;font-family: 'Courier New', Courier, monospace;}
+}
+.txt{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    animation-name: text;
+    animation-duration: 7s;
+    animation-delay: 3s;
+    animation-iteration-count: 4;
+}
+.txt:hover{
+    transform: scale(3) translatex(400px) rotate3d(2,3,-1 180deg);
+}

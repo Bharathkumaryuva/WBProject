@@ -1,0 +1,41 @@
+p{
+    color: aqua;
+    font-size: 50px;
+    font-style: italic;
+    font-family: bharath;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 10px 10px 3px black;
+}
+@font-face {
+    font-family: bharath;
+    src: url("History.otf");
+}
+.c1{
+    box-shadow: 10px 10px 3px red;
+    width: 700px;
+    height: 500px;
+    border-width: 2px;
+    border-style: solid; 
+    border-color: black;
+    border-top-color: green;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-right: 60px;
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    padding-left: 50px;
+}
+body{
+   background: green;
+   background-image:url("download.png");
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+   background-position: right-top;
+  /* background-attachment: scroll;*/
+}
